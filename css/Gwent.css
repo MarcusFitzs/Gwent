@@ -1,0 +1,492 @@
+body{
+	background-image: url("../Images/background.png");
+	font-family: HalisGR-Book,sans-serif;
+	color: #6b6764; /**Grey-Brown**/
+	padding: 0;
+	margin: 0;
+}
+#navDiv{
+	width: 100%;
+	height: 200px;
+	background: url("../Images/NavBack.jpg") repeat-x left top;
+}
+div#logo {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+ul li a{
+	font-size: 2em;
+	text-decoration: none;
+	color: #129468; /**Gwent Green**/
+	display: block;
+}
+ul.topnav{
+	list-style-type: none;
+	float:left;
+	margin-left: -30px;
+	width: 50%;
+}
+ul.topnav li.hide {
+	display: none;
+	float: left;
+}
+ul.topnav li.hide a {
+	margin-left: 38px;
+}
+ul.topnav li.icon {
+	margin-bottom: -1px;
+}
+ul.cardsNav{
+	float: left;
+}
+ul.topnav li {
+	background: url(../Images/liBackg2.png) no-repeat right;
+	width: 188px;
+}
+ul.topnav li:hover{
+	background: url(../Images/liBackg2Hover.png) no-repeat right;
+}
+ul.topnav.responsive li{
+	display: block;
+}
+ul.topnav li.icon a:hover{
+	background: url(../Images/liBackg2Hover.png) no-repeat right;
+	width: 188px;
+}
+#placeHolder{
+	position: relative;
+	background: url("../Images/BackgroundBanner.png") 0% 5% repeat-x, url("../Images/BackgroundBanner.png") 0% 95% repeat-x;
+	float: left;
+	width: 100%;
+}
+footer{
+	height:173px;
+	background: url("../Images/FootBack.jpg") repeat-x;
+	width: 100%;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+footer p{
+	font-size: 0.8em;
+	line-height: 1.5em;
+	font-weight: 400;
+	text-align: center;
+	margin: 1em;
+}
+p, h1, h2{
+	margin: 5%;
+}
+ul#scoiDeck {
+	list-style-type: none;
+}
+ul#scoiDeck ul{
+	padding: 0;
+	margin: 0;
+}
+ul#scoiDeck ul li a{
+	font-size: 1em;
+	width: auto;
+	display: inline-block;
+}
+p.firstPara{
+	clear:both;
+}
+figure.frontFigure{
+	float: left;
+	margin: 0 auto;
+}
+figcaption{
+	text-align: center;
+	color: #e2ae03;
+}
+div#currentDeck{
+	margin: 5%;
+	float: left;
+}
+ul#mediaList{
+	list-style-type: none;
+	padding: 1em 1em 0em 1em;
+	text-align: center;
+}
+ul#mediaList li{
+	display: inline-block;
+	margin: 0em 1em 0em 1em;
+}
+ul.testTest {
+	display: none;
+	position: absolute;
+	list-style-type: none;
+}
+li.test {
+	position: relative;
+}
+li.bronzeCards:hover > ul.testTest, li.silverCards:hover > ul.testTest, li.goldCards:hover > ul.testTest, li.silverCardsOne:hover > ul.testTest {
+	display: block;
+	margin-left: 80px;
+	padding: 0;
+}
+li.bronzeCards {
+	color: #98724d; /**Bronze**/
+}
+li.silverCards, li.silverCardsOne {
+	color: #bcbbb6; /**Silver**/
+}
+li.goldCards {
+	color: #dfbc60; /**Gold**/
+}
+li.silverCardsOne {
+	margin-bottom: 1em;
+}
+/**About page**/
+ul#aboutTips li {
+	margin: 2% 5%;
+}
+h2#headTips {
+	margin: 5%;
+}
+/**Decks page**/
+div#deckHolder {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+figure.nrDeck, figure.monDeck, figure.skelDeck, figure.scoiDeck, figure.nilfDeck {
+	width: auto;
+	margin: auto;
+}
+/**Contact page**/
+label {
+	float: left;
+	width: 30%;
+	margin-left: 1%;
+}
+input {
+	margin-left: .5em;
+}
+select, textarea {
+	margin-left: .5em;
+}
+input.inputButton {
+	color: #000000; /**Black**/
+	margin: 1em;
+}
+div.formButton {
+	text-align: center;
+}
+div.formDiv {
+	width: 100%;
+	float: left;
+	margin-bottom:1em;
+	clear: left;
+}
+div#formHolder {
+	margin-top: 2em;
+}
+span {
+	color: #dfbc60; /**Gold**/
+}
+div#errorMessage {
+	color: red;
+}
+.format{
+	background-color: yellow;
+	}
+p#thanks{
+	text-align: center;
+	width: auto;
+}
+/**ScoiDeck page**/
+td {
+	border: 1px solid #FFFFFF; /**White border around table**/
+	padding: .5em;
+}
+table {
+	border-collapse: collapse; /**No double lines in border**/
+}
+th {
+	text-align: left;
+	padding-top: 1em;
+}
+div#scoiCards {
+	position: relative;
+	width: auto;
+	height: auto;
+}
+div#neuCards {
+	position: relative;
+	width: auto;
+	height: auto;
+}
+div#myScoiDeck {
+	position: relative;
+	width: auto;
+	height: auto;
+}
+div#metaScoiDeck {
+	position: relative;
+	width: auto;
+	height: auto;
+}
+div#metaScoiDeckTwo {
+	position: relative;
+	width: auto;
+	height: auto;
+}
+img.imgHide {
+	display: none;
+}
+td.scoiPics:hover > img.imgHide { /**Hides the images until the td.scoiPics is hovered over**/
+	display: block;
+	position: absolute;
+	margin-left: 200px;
+	margin-top: -20px;
+}
+th.firstHead {
+	text-align: center;
+}
+td.commonCards img, td.rareCards img, td.epicCards img, td.legendaryCards img { /**Aligns the images of the table to the right side**/
+	float: right;
+}
+.tableHeadScoi, .tableHeadNorth, .tableHeadSkel, .tableHeadMon, .tableHeadNilf, .tableHeadNeu{
+	text-align: center;
+	margin: auto;
+}
+h1.tableHeadScoi, h1.tableHeadNorth, h1.tableHeadSkel, h1.tableHeadMon, h1.tableHeadNilf, h1.tableHeadNeu{
+	text-align: center;
+	margin: 1em auto 0em auto;
+}
+.tableHeadScoi {
+	color: #466a2a; /**Scoia'tael Green**/
+}
+.tableHeadNorth {
+	color: #236fad; /**Northern Realms Blue**/
+}
+.tableHeadSkel {
+	color: #5c4675; /**Skellige Purple**/
+}
+.tableHeadMon {
+	color: #7f0a03; /**Monsters Red**/
+}
+.tableHeadNilf {
+	color: #313538; /**Nilfgaardian Black**/
+}
+.tableHeadNeu {
+	color: #7a522f; /**Neutral Brown**/
+}
+td.tableBronze {
+	color: #98724d; /**Bronze colour**/
+}
+td.tableSilver {
+	color: #bcbbb6; /**Silver colour**/
+}
+td.tableGold {
+	color: #dfbc60; /**Gold colour**/
+}
+td.legendaryCards {
+	width: 119px; /**Provides enough width for the images**/
+}
+@media screen and (min-width: 620px) {
+	ul.topnav {
+		text-align: center;
+		width: 100%;
+	}
+	ul.topnav li.hide a {
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+	ul.topnav li.hide{
+		display: inline-block;
+		background: url(../Images/liBackg.png) repeat-x bottom;
+		text-align: center;
+		width: 150px;
+		margin: 0;
+		padding: 0;
+		clear: none;
+	}
+	ul.topnav li.hide a:hover{ /**Displays an image when you hover**/
+		background: url(../Images/liBackgHover.png) repeat-x bottom;
+		width: 150px;
+		margin: 0;
+}
+	ul.topnav.responsive li{
+		display: inline-block;
+		text-align: center;
+	}
+	ul.topnav li.icon{
+		display: none;
+	}
+	div#navHolder {
+		position: relative;
+		width: 610px;
+		text-align: center;
+		margin: auto;
+	}
+	div#text {
+		position: relative;
+		width: 50%;
+		margin: 0;
+		float: left;
+	}
+	div#currentDeck {
+		position: relative;
+		width: 50%;
+		margin: 0;
+		float: left;
+		text-align: center;
+	}
+	figure.frontFigure {
+		width: auto;
+		text-align: center;
+		margin-right: 10%;
+	}
+	ul.cardsNav {
+		width: auto;
+		text-align: left;
+		float: left;
+	}
+	h2 {
+		margin: 5% 0 0 0;
+	}
+	#space{
+		width: 100%;
+		height: auto;
+	}
+	footer p{
+		margin-top: 5em;
+	}
+	#wrapper {
+		min-height: 100%;
+		height: auto !important; /**Hight takes some priority**/
+		height: 100%;
+	}
+	html, body {
+		height: 100%;
+	}
+	footer.homeFoot{ /**Fixes the footer on the home page to the bottom of the screen**/
+		bottom: 0px;
+		position: fixed;
+	}
+	div#deckHolder {
+		position: relative;
+		width: 100%;
+		height: 644px;
+		text-align: center;
+		margin: 50px auto;
+	}
+	figure.nrDeck, figure.monDeck, figure.skelDeck,	figure.scoiDeck, figure.nilfDeck { /**Distributes the images of the Decks page as the screen resizes**/
+		width: auto;
+		float: left;
+		margin: 20px 2.2%;
+	}
+	label {
+		float: left;
+		width: 60%;
+		margin-left: 1%;
+	}
+	div.formButton {
+		color: #000000; /**Black**/
+		text-align: center;
+	}
+	div.formDiv {
+		width: 100%;
+		float: left;
+		margin-bottom:1em;
+	}
+	div#formHolder {
+		margin: 2em auto;
+		width: 800px;
+	}
+}
+@media (min-width: 850px) and (max-width: 1583px) {
+	div#deckHolder {
+		position: relative;
+		width: 828px;
+		text-align: center;
+		padding-left: 5%;
+		margin: 20px auto;
+	}
+	figure.nrDeck, figure.monDeck, figure.skelDeck,	figure.scoiDeck, figure.nilfDeck {
+		width: auto;
+		float: left;
+		margin: 20px 35px 20px 0px;
+	}
+}
+@media (min-width: 620px) and (max-width: 849px) {
+	div#deckHolder {
+		position: relative;
+		width: 100%;
+		text-align: center;
+		padding-left: 5%;
+		margin: 50px auto;
+	}
+	figure.nrDeck, figure.monDeck, figure.skelDeck,	figure.scoiDeck, figure.nilfDeck {
+		width: 100%;
+		float: left;
+		margin: 20px 35px 20px 0px;
+	}
+	label {
+		width: 40%;
+	}
+	div#formHolder {
+		margin-top: 2em;
+		width: 540px;
+	}
+}
+@media screen and (max-width: 980px) {
+	footer{
+		height:173px;
+		background: url("../Images/FootBack.jpg") repeat-x;
+		width: 100%;
+		clear: both;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		}
+}
+@media screen and (max-width: 313px) {
+	textarea {
+		width: 94%;
+	}
+}
+@media screen and (max-width: 298px) {
+	label{
+		width: 100%;
+	}
+}
+@media screen and (min-width: 430px) {
+	div#scoiCards {
+		width: 394px;
+		margin: 5% auto;
+	}
+	div#neuCards {
+		width: 394px;
+		margin: 5% auto;
+	}
+	div#myScoiDeck {
+		width: 394px;
+		margin: 5% auto;
+	}
+	div#metaScoiDeck {
+		width: 394px;
+		margin: 5% auto;
+	}
+	div#metaScoiDeckTwo {
+		width: 394px;
+		margin: 5% auto;
+	}
+}
+@media screen and (min-width: 1000px) {
+	div#scoiCards, div#neuCards, div#myScoiDeck, div#metaScoiDeck, div#metaScoiDeckTwo  { /**Allows the tables to go side by side when the screen resizes**/
+		width: 394px;
+		margin-right: 5%;
+		float: left;
+	}
+	div#cardTables {
+		width: 876px;
+		margin: auto;
+		height: auto;
+	}
+}
